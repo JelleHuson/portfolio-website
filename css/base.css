@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+html { color-scheme: dark; scroll-behavior: smooth; }
+html[data-theme="light"] { color-scheme: light; }
+body { margin: 0; background: var(--color-bg); color: var(--color-text); font-family: var(--font-body); font-size: var(--step-0); line-height: 1.6; }
+body, button, input { font: inherit; }
+a { color: var(--color-accent); text-underline-offset: 0.18em; }
+a:hover { color: var(--color-accent-2); }
+button, a { min-height: 44px; }
+button { border: 0; cursor: pointer; }
+button:focus-visible, a:focus-visible, input:focus-visible, summary:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+img, svg { max-width: 100%; }
+main { min-height: 65vh; }
+::selection { background: var(--color-accent); color: var(--color-bg); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }

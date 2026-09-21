@@ -1,0 +1,10 @@
+{
+  "name": "ScentMatch",
+  "short_name": "ScentMatch",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0e0c0a",
+  "theme_color": "#d9a45b",
+  "description": "Privacy-first fragrance discovery.",
+  "icons": [{ "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

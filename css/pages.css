@@ -1,0 +1,10 @@
+.feature-card { height: 100%; }
+.feature-card h3 { margin-top: 0; font-family: var(--font-display); font-size: var(--step-1); }
+.feature-card p { color: var(--color-muted); }
+.trust-strip { display: grid; gap: var(--space-3); margin-top: var(--space-7); padding: var(--space-4); border: 1px solid var(--color-border); border-radius: var(--radius-md); color: var(--color-muted); }
+.prose { max-width: 48rem; }
+.prose h1 { font-size: var(--step-3); }
+.prose h2 { margin-top: var(--space-7); font-family: var(--font-display); font-size: var(--step-2); }
+.prose li { margin-block: var(--space-2); }
+.not-found { text-align: center; padding-block: var(--space-8); }
+@media (min-width: 42rem) { .trust-strip { grid-template-columns: repeat(3, 1fr); } }
